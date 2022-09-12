@@ -1,19 +1,15 @@
 #include <stdio.h>
-
 /**
-* main - the program run from here
+* main - lowercase alphabets
 *
-* Return:return zero if no erro and non zero if error
+* Return: Always (Success)
 */
 int main(void)
 {
-int alphabet;
-alphabet = 'a';
-  while (alphabet <= 'z')
-      {
-      putchar(alphabet);
-alphabet++;
-	}	
-	putchar('\n');
-return (0);
-}      
+    char c;
+
+    for (c = 'a'; c <= 'z'; c++)
+        putchar(c);
+
+    putchar('\n');
+    return (0);
