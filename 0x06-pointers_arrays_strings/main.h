@@ -12,4 +12,4 @@ char *cap_string(char *);
 char *leet(char *);
 int _putchar (char c);
 
-#endif /* MAIN_H INCLUDED */
+#endif /* MAIN_H*/
